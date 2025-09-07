@@ -1,0 +1,90 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    font-family: 'Poppins', system-ui, sans-serif;
+  }
+  
+  body {
+    @apply bg-gradient-to-br from-pink-50 via-white to-blue-50 dark:from-gray-900 dark:via-gray-800 dark:to-gray-900;
+    @apply text-gray-900 dark:text-gray-100;
+    @apply min-h-screen;
+  }
+}
+
+@layer components {
+  .btn-primary {
+    @apply bg-gradient-to-r from-primary-500 to-primary-600 hover:from-primary-600 hover:to-primary-700;
+    @apply text-white font-semibold py-3 px-6 rounded-2xl;
+    @apply transform transition-all duration-200 hover:scale-105 hover:shadow-lg;
+    @apply focus:outline-none focus:ring-4 focus:ring-primary-200 dark:focus:ring-primary-800;
+  }
+  
+  .btn-secondary {
+    @apply bg-white dark:bg-gray-800 border-2 border-primary-200 dark:border-primary-700;
+    @apply text-primary-600 dark:text-primary-400 font-semibold py-3 px-6 rounded-2xl;
+    @apply transform transition-all duration-200 hover:scale-105 hover:shadow-lg;
+    @apply hover:bg-primary-50 dark:hover:bg-primary-900/20;
+    @apply focus:outline-none focus:ring-4 focus:ring-primary-200 dark:focus:ring-primary-800;
+  }
+  
+  .card {
+    @apply bg-white dark:bg-gray-800 rounded-3xl shadow-xl;
+    @apply border border-gray-100 dark:border-gray-700;
+    @apply p-6 transition-all duration-300;
+  }
+  
+  .card-hover {
+    @apply hover:shadow-2xl hover:-translate-y-1;
+  }
+  
+  .gradient-text {
+    @apply bg-gradient-to-r from-primary-600 to-trust-600 bg-clip-text text-transparent;
+  }
+  
+  .floating-donate-btn {
+    @apply fixed bottom-6 right-6 z-50;
+    @apply bg-gradient-to-r from-primary-500 to-primary-600;
+    @apply text-white p-4 rounded-full shadow-2xl;
+    @apply transform transition-all duration-300 hover:scale-110;
+    @apply animate-glow;
+  }
+}
+
+.video-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.9);
+  z-index: 9999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.skip-button {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  background: rgba(255, 255, 255, 0.2);
+  color: white;
+  border: 2px solid rgba(255, 255, 255, 0.3);
+  padding: 8px 16px;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.skip-button:hover {
+  background: rgba(255, 255, 255, 0.3);
+}
+
+@media (max-width: 640px) {
+  .floating-donate-btn {
+    @apply bottom-4 right-4 p-3;
+  }
+}

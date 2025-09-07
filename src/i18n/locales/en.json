@@ -1,0 +1,85 @@
+{
+  "app": {
+    "name": "KindHeart",
+    "tagline": "One App. Thousands of Smiles. Infinite Kindness.",
+    "description": "Connect your generosity with those who need it most"
+  },
+  "intro": {
+    "narration1": "KindHeart connects your generosity with those who need it most",
+    "narration2": "One tap. Real impact. Countless smiles.",
+    "narration3": "Welcome to KindHeart - where kindness creates change",
+    "skip": "Skip"
+  },
+  "language": {
+    "title": "Choose Your Language",
+    "subtitle": "Select your preferred language to continue"
+  },
+  "onboarding": {
+    "title1": "Support Those in Need",
+    "desc1": "Help orphanages, old-age homes, shelters, and special needs homes with just a few taps",
+    "title2": "See Your Impact",
+    "desc2": "Track how your donations create real change in the lives of those who need it most",
+    "title3": "Join a Community of Kindness",
+    "desc3": "Be part of a movement that spreads love and support across communities",
+    "getStarted": "Get Started",
+    "next": "Next",
+    "skip": "Skip"
+  },
+  "auth": {
+    "title": "Join KindHeart",
+    "subtitle": "Sign in to start making a difference",
+    "googleLogin": "Continue with Google",
+    "phoneLogin": "Continue with Phone",
+    "emailLogin": "Continue with Email",
+    "skipForNow": "Skip for Now",
+    "enterPhone": "Enter your phone number",
+    "enterEmail": "Enter your email address",
+    "enterOTP": "Enter verification code",
+    "continue": "Continue"
+  },
+  "home": {
+    "welcome": "Welcome to KindHeart",
+    "searchPlaceholder": "Search organizations...",
+    "categories": {
+      "orphanages": "Orphanages",
+      "oldAge": "Old-age Homes",
+      "specialNeeds": "Special Needs",
+      "shelters": "Shelters"
+    },
+    "urgentCampaigns": "Urgent Campaigns",
+    "featuredOrganizations": "Featured Organizations",
+    "yourLocation": "Your Location"
+  },
+  "donation": {
+    "selectAmount": "Select Donation Amount",
+    "customAmount": "Custom Amount",
+    "impact": "Your Impact",
+    "oneTime": "One-time",
+    "monthly": "Monthly",
+    "donate": "Donate Now",
+    "processing": "Processing your donation...",
+    "success": "Thank you for your kindness!",
+    "successMessage": "Your donation will help create smiles and change lives",
+    "receipt": "Download Receipt",
+    "shareImpact": "Share Your Impact"
+  },
+  "voice": {
+    "listening": "Listening...",
+    "processing": "Processing...",
+    "commands": {
+      "donate": "Say 'donate now' to start donating",
+      "search": "Say 'search orphanages' to find organizations",
+      "profile": "Say 'my profile' to view your donations"
+    }
+  },
+  "common": {
+    "loading": "Loading...",
+    "error": "Something went wrong",
+    "retry": "Try Again",
+    "close": "Close",
+    "save": "Save",
+    "cancel": "Cancel",
+    "yes": "Yes",
+    "no": "No"
+  }
+}
